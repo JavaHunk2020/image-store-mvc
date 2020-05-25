@@ -23,7 +23,7 @@
       <span style="font-size: 18px;color: red;">${msg}</span>
       <br/>
       <div style="width: 50%">
-      <form action="register">
+      <form action="register" method="post">
       <label>Username</label>
       <input type="text" name="username"  class="form-control">
        <label>Password</label>

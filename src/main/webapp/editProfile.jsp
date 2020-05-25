@@ -23,7 +23,7 @@
       <span style="font-size: 18px;color: blue;font-weight: bold;">Edit Profile Page</span>
       <hr/>
       <div style="width: 50%">
-      <form action="updateProfile">
+      <form action="updateProfile" method="post">
        <input type="hidden"  name="aid"  value="${profileDTO.aid}">
       <label>Username</label>
       <input type="text" name="username"  class="form-control"   value="${profileDTO.username}">

@@ -23,7 +23,7 @@
       <span style="font-size: 18px;color: red;">${msg}</span>
       <br/>
       <div style="width: 50%">
-      <form action="forgotPassword">
+      <form action="forgotPassword"  method="post">
       <label><b>Email Id</b></label>
       <input type="email" name="email"  class="form-control"  value="${param.email}">
       <br/>
